@@ -29,7 +29,7 @@ public class CallRestService {
 		if (response.getStatusLine().getStatusCode() != 200) {
 
 		}
-		System.err.println(request.getURI());
+		System.out.println(request.getURI());
 		StringBuffer output = new StringBuffer();
 		try(BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())))) {
 			System.out.println("Output  .... ");

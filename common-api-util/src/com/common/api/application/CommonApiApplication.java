@@ -14,6 +14,6 @@ public class CommonApiApplication {
 		PropertyManager.get().loadProperties("resources/application.properties");
 		CommonApiService service=new CommonApiService();
 		service.process();
-		
+
 	}
 }
